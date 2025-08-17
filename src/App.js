@@ -23,7 +23,6 @@ function App() {
         <button onClick={increment} style={{ ...buttonStyle, background: '#4caf50', color: '#fff' }}>
           ➕ Increment
         </button>
-
         <button onClick={decrement} style={{ ...buttonStyle, background: '#f44336', color: '#fff' }}>
           ➖ Decrement
         </button>
