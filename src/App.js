@@ -20,10 +20,7 @@ function App() {
       <h1 style={{ marginBottom: '20px' }}>Zustand Counter</h1>
       <h2 style={{ fontSize: '2rem', marginBottom: '20px' }}>{count}</h2>
       <div>
-        <button
-          onClick={increment}
-          style={{ ...buttonStyle, background: '#4caf50', color: '#fff' }}
-        >
+        <button onClick={increment} style={{ ...buttonStyle, background: '#4caf50', color: '#fff' }}>
           ➕ Increment
         </button>
 
