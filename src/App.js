@@ -5,7 +5,7 @@ function App() {
   const { count, increment, decrement, reset } = useCounterStore()
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div style={{ textAlign: 'center'}}>
       <h1>ZUSTAND COUNTER</h1>
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
