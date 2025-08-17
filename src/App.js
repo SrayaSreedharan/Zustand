@@ -2,7 +2,7 @@ import React from 'react'
 import useCounterStore from './store/counterStore'
 
 function App() {
-  const { count, increment, decrement, reset } = useCounterStore()
+  const { count, increment, decrement } = useCounterStore()
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
@@ -10,7 +10,7 @@ function App() {
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
-      <button onClick={reset}>Reset</button>
+      {/* <button onClick={reset}>Reset</button> */}
     </div>
   )
 }
