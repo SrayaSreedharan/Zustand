@@ -19,7 +19,6 @@ function App() {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1 style={{ marginBottom: '20px' }}>Zustand Counter</h1>
       <h2 style={{ fontSize: '2rem', marginBottom: '20px' }}>{count}</h2>
-
       <div>
         <button
           onClick={increment}
