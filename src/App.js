@@ -29,8 +29,7 @@ function App() {
         </button>
 
         <button
-          onClick={reset}
-          style={{ ...buttonStyle, background: '#2196f3', color: '#fff' }}>
+          onClick={reset} style={{ ...buttonStyle, background: '#2196f3', color: '#fff' }}>
           🔄 Reset
         </button>
       </div>
