@@ -25,9 +25,7 @@ function App() {
         </button>
 
         <button
-          onClick={decrement}
-          style={{ ...buttonStyle, background: '#f44336', color: '#fff' }}
-        >
+          onClick={decrement} style={{ ...buttonStyle, background: '#f44336', color: '#fff' }}>
           ➖ Decrement
         </button>
 
