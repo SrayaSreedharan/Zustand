@@ -1,4 +1,3 @@
-// src/store/counterStore.js
 import { create } from 'zustand'
 
 const useCounterStore = create((set) => ({
