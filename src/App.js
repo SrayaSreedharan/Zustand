@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Zustand Counter</h1>
+      <h1>ZUSTAND COUNTER</h1>
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
