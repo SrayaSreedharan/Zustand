@@ -9,7 +9,7 @@ function App() {
       <h1>ZUSTAND COUNTER</h1>
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
-      {/* <button onClick={decrement}>Decrement</button> */}
+      <button onClick={decrement}>Decrement</button>
       <button onClick={reset}>Reset</button>
     </div>
   )
