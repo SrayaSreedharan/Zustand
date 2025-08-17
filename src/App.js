@@ -27,7 +27,6 @@ function App() {
         <button onClick={decrement} style={{ ...buttonStyle, background: '#f44336', color: '#fff' }}>
           ➖ Decrement
         </button>
-
         <button onClick={reset} style={{ ...buttonStyle, background: '#2196f3', color: '#fff' }}>
           🔄 Reset
         </button>
